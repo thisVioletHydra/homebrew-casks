@@ -1,16 +1,16 @@
-# Thisviolethydra Casks
+# thisviolethydra/casks
 
-## How do I install these formulae?
+Personal Homebrew tap. Official `homebrew/cask` does not accept unsigned apps.
 
-`brew install thisviolethydra/casks/<formula>`
+```bash
+brew tap thisviolethydra/casks
+brew install --cask awakened-poe-trade
+```
 
-Or `brew tap thisviolethydra/casks` and then `brew install <formula>`.
+Later:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "thisviolethydra/casks"
-brew "<formula>"
+```bash
+brew upgrade --cask awakened-poe-trade
 ```
 
 ## Documentation
